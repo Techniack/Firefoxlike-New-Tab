@@ -33,8 +33,26 @@ form.addEventListener('submit', function(e) {
     else if(command === "y "){
         window.location.href = "http://youtube.com/results?search_query=" + q.slice(2)
     }
-    else if(command === "r "){
-        window.location.href = "http://reddit.com/r/" + q.slice(2)
+    else if(q === "moodle"){
+        window.location.href = "https://moodle.clarkson.edu/my/"
+    }
+    else if(q === "mycu"){
+        window.location.href = "https://mycu.clarkson.edu/psp/csprd92/EMPLOYEE/SA/s/WEBLIB_HCX_GN.H_DASHBOARD.FieldFormula.IScript_Main"
+    }
+    else if(q === "webassign"){
+        window.location.href = "https://www.cengage.com/dashboard/#/my-dashboard/authenticated?page="
+    }
+    else if(q === "print.clarkson.edu"){
+        window.location.href = "https://print.clarkson.edu:9192/app?service=page/UserSummary"
+    }
+    else if(q === "print"){
+        window.location.href = "https://print.clarkson.edu:9192/app?service=page/UserSummary"
+    }
+    else if(q === "drive"){
+        window.location.href = "https://drive.google.com/drive/u/1/my-drive"
+    }
+    else if(q === "youtube"){
+        window.location.href = "https://youtube.com"
     }
     else if(command === "d "){
         window.location.href = "https://drive.google.com/drive/u/1/search?q=" + q.slice(2)
