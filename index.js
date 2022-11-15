@@ -14,7 +14,7 @@ function formatAMPM(date) {
     return strTime;
 }
 
-commandline.placeholder = "Welcom, Ben. It's " + formatAMPM(date) + ", " + date.toDateString() + "."
+commandline.placeholder = "Hi Jerry. It's " + formatAMPM(date) + ", " + date.toDateString() + "."
 
 // search bar behavior
 document.onclick = function(e) {
@@ -37,12 +37,12 @@ form.addEventListener('submit', function(e) {
         window.location.href = "http://reddit.com/r/" + q.slice(2)
     }
     else if(command === "d "){
-        window.location.href = "https://drive.google.com/drive/u/0/search?q=" + q.slice(2)
+        window.location.href = "https://drive.google.com/drive/u/1/search?q=" + q.slice(2)
     } 
-    else if(command === "g "){
-        window.location.href = "https://github.com/search?q=user%3Abenman604+" + q.slice(2)
+    else if(command === "e "){
+        window.location.href = "https://mail.google.com/mail/u/1/#search/" + q.slice(2)
     } else{
-        window.location.href = "http://google.com/search?q=" + q
+        window.location.href = "https://duckduckgo.com/?q=" + q
     }
 })
 

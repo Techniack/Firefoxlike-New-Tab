@@ -1,5 +1,6 @@
 :root {
-    --background-image: url("https://source.unsplash.com/random/?wallpaper");
+   /* --background-image: url("https://source.unsplash.com/random/?wallpaper"); */
+    --background-image: url("https://images.unsplash.com/photo-1620121692029-d088224ddc74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8d2FsbHBhcGVyfHx8fHx8MTY2ODQ3MzA0Nw&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080");
 }
 
 @font-face {
@@ -138,7 +139,7 @@ a:hover {
 } */
 
 a {
-    color: rgb(121, 226, 240);
+    color: #00a1ff;
     text-decoration: none;
 }
   
@@ -146,14 +147,16 @@ a {
     background:
         linear-gradient(
         to right,
-        rgb(0, 0, 0),
-        rgb(0, 0, 0)
+        #000000,
+        #000000
     ),
         linear-gradient(
         to right,
-        rgba(255, 0, 0, 1),
-        rgba(255, 0, 180, 1),
-        rgba(0, 100, 200, 1)
+        #09e5be,
+        #00c5ba,
+        #00a4ad,
+        #008497,
+        #00a1ff
     );
     background-size: 100% 3px, 0 3px;
     background-position: 100% 100%, 0 100%;
